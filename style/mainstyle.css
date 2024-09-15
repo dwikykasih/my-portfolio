@@ -256,8 +256,18 @@ h3.project-title {
 	transition: all 0.3s ease-in-out;
 	color: #858585;
 }
-.project-description:hover {
+.project-item:hover .project-description {
 	color: #494949;
+}
+.project-description ul {
+	list-style: none;
+	padding: 0;
+}
+.project-description ul > li > b {
+	font-weight: 600;
+}
+.project-description ul > li:not(:last-child) {
+	margin-bottom: 8px;
 }
 .project-icon {
 	margin: 28px 0;
@@ -293,3 +303,15 @@ h3.project-title {
 }
 /*Content - ends*/
 
+/*Footer*/
+.footer .fa > i {
+	font-size: 32px;
+}
+.footer a.fa {
+	padding: 8 16pxpx;
+}
+.footer {
+	border-top: 1px solid #ebebeb;
+	padding: 100px 32px 32px;
+}
+/*Footer - ends*/

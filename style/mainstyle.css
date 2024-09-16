@@ -267,7 +267,7 @@ h3.project-title {
 	font-weight: 600;
 }
 .project-description ul > li:not(:last-child) {
-	margin-bottom: 8px;
+	margin-bottom: 12px;
 }
 .project-icon {
 	margin: 28px 0;

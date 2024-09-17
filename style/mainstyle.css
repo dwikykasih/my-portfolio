@@ -316,4 +316,17 @@ h3.project-title {
 	border-top: 1px solid #ebebeb;
 	padding: 100px 32px 32px;
 }
+#goup {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	transition: all 0.3s ease-in-out;
+}
+#goup > a > i {
+	padding: 12px 16px;
+    background-color: #ebebeb;
+    border-radius: 50%;
+    color: #494949;
+    font-size: 20px;
+}
 /*Footer - ends*/

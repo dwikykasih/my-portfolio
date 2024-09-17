@@ -114,7 +114,7 @@ a {
 a:hover {
 	color: #000;
 }
-li > a {
+li > a:not(.project-description li > a) {
 	padding: 5px 8px;
 }
 a.fa {
@@ -217,6 +217,7 @@ a.fa {
 }
 .project-item > .project-content {
 	padding: 60px;
+	margin: auto;
 }
 .project-item:not(:last-child) {
 	margin-bottom: 32px;
@@ -234,6 +235,7 @@ h3.project-title {
 .project-image {
 	width: 40%;
 	overflow: hidden;
+	border-right: 1px solid #ebebeb;
 }
 .project-content {
 	width: 60%;
@@ -267,7 +269,7 @@ h3.project-title {
 	font-weight: 600;
 }
 .project-description ul > li:not(:last-child) {
-	margin-bottom: 12px;
+	margin-bottom: 8px;
 }
 .project-icon {
 	margin: 28px 0;

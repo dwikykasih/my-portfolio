@@ -29,10 +29,10 @@
 @media screen and (max-width: 435px) {
 	.project-link {
 		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: stretch;
-		text-align: center;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: stretch;
+	    text-align: center;
 	}
 	.project-link > a:not(:last-child) {
 		margin-right: 0 !important;

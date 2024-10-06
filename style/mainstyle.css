@@ -133,9 +133,9 @@ a.fa {
 	height: calc(100dvh - 88px);
 	padding: 0 20px;
 }
-#intro-container {
+/*#intro-container {
 	display: inline-block;
-}
+}*/
 .hello {
 	font-weight: 500;
 	font-size: 48px;
@@ -147,6 +147,7 @@ a.fa {
 	letter-spacing: -0.9px;
 	word-spacing: 4px;
 	text-align: center;
+	white-space: nowrap;
 }
 .myname {
 	font-family: Handjet, sans-serif;
@@ -167,7 +168,7 @@ a.fa {
 	max-width: 550px;
 	line-height: 1.3;
 	text-align: center;
-	margin: 4px auto;
+	margin: 8px auto;
 }
 .myname > span, .myname, .myexp {	
 	transition: all 0.3s ease-in-out;
@@ -303,6 +304,36 @@ h3.project-title {
 .project-link > a:hover {
 	background-color: #000;
 }
+
+/*Typewriter Animation*/
+.typewriter {
+	display: flex;
+	justify-content: center;
+}
+.typewriter > * {
+	margin-inline: auto;
+	overflow: hidden;
+	white-space: nowrap;
+	border-right: 1px solid;
+	animation: typing 3s steps(22) forwards,
+	blink 1s step-end infinite;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+@keyframes blink {
+	50% {
+		border-color: transparent;
+	}
+}
+
 /*Content - ends*/
 
 /*Footer*/
